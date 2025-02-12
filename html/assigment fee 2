@@ -1,0 +1,49 @@
+<html></html>
+<head>
+<title> FORMS IN HTML </title>
+</head>
+<body bgcolor = "pink">
+<center> <font color = "LILAC" size = "7">APPLICATION FORM </font> </center>
+<hr size = "5" color = "blue" width = "400">
+<form>
+<form action = "a.html"  method = "GET">
+<table align = "center" cellpadding = "5" cellspacing = "5" border = "4">
+<tr> 
+    <td> FIRST NAME : </td>
+    <td><input type = "text" name = "frame" placeholder = "name" size = "30" maxlength = "8" /> </td> </tr>
+<tr>
+    <td> LAST NAME : </td>
+    <td><input type = "text" name = "Raj" value = " " size = "30"/> </td> </tr>
+<tr>
+    <td> PASSWORD : </td>
+    <td><input type = "password" name = "pwd" /> </td> </tr>
+<tr>
+    <td> COMMENTS: </td>
+    <td><textarea rows = "8" cols = "20" name = "comm" placeholder = "enter comments"> </textarea> </td> </tr>
+<tr>
+    <td> LANGUAGE : </td>
+    <td><input type = "checkbox" name = "cb1" checked>HINDI
+        <input type = "checkbox" name = "cb1" checked>ENGLISH
+        <input type = "checkbox" name = "cb1" checked>PUNJABI </td> </tr>
+<tr>
+    <td> GENDER: </td>
+    <td> <input type = "radio" name = "r1">MALE
+         <input type = "radio" name = "r1">FEMALE </td> </tr>
+<tr> 
+    <td> Select.fruit: </td>
+    <td> <select>
+<option>-------------Select---------</option>
+        <OPTION> Orange </option>
+        <OPTION> Mango </option>
+        <OPTION> Pineapple </option>
+</select> </td> </tr>
+<tr> 
+    <td> Select Resume</td>
+    <td><input type = "File"/></td></tr>
+<tr> 
+    <td align = "center" colspan = "2">
+             <input type = "submit" value = "register"/>
+             <input type = "reset" value = "clear"/> 
+             <input type = "button" value = "OK"/>  </td> </tr>
+</table>
+</form>
